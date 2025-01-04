@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+
+  p {
+    @apply font-Tsukimi text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-white;
+  }
+}
